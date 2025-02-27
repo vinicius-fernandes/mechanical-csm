@@ -1,0 +1,34 @@
+meta {
+  name: Add Info
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/customer-service/services
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+    {
+    "content":"Company e-mail: contact@mechanical.com"
+  },
+      {
+    "content":"Company phone: +55 11 99100-0000"
+  },
+    {
+      "content":"Company address:  123 Maple Avenue, Anytown, USA 12345"
+    }
+  ]
+}
+
+body:text {
+  In addition to their services, Town Mechanics also hosts workshops and classes for those interested in learning
+  more about auto repair. Whether a seasoned mechanic or a curious beginner, there's always something new to learn
+  at this welcoming shop. With its knowledgeable staff, state-of-the-art equipment, and warm, community-oriented
+  atmosphere, Town Mechanics has earned its place as the go-to mechanical shop in the small town it calls home.
+  
+  
+}

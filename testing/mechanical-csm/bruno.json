@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "mechanical-csm",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
